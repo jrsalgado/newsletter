@@ -1,0 +1,64 @@
+/*==================================
+                GLOBAL
+==================================*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    box-sizing: border-box; /* Asegura que el borde y el
+    relleno estan incluidos en el ancho y alto total de la
+    caja html */
+}
+
+.container{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.row{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    clear: both; /* Respeta solo las cajas flotantes que 
+    esten dentro de la fila, asi no se enciman las filas
+    con otras */
+    display: table; /* Para respetar el area de las cajas
+    flotantes cuando se utiliza otro tipo de etiquetas como
+    por ejemplo h1, por fuera de la caja */
+}
+
+[class*="col-"]{
+    float: left;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.col-12{ width: 100%; }
+
+.col-11{ width: 91.66666667%; }
+
+.col-10{ width: 83.33333333%; }
+
+.col-9{ width: 75%; }
+
+.col-8{ width: 66.66666667%; }
+
+.col-7{ width: 58.33333333%; }
+
+.col-6{ width: 50%; }
+
+.col-5{ width: 41.66666667%; }
+
+.col-4{ width: 33.33333333%; }
+
+.col-3{ width: 25%; }
+
+.col-2{ width: 16.66666667%; }
+
+.col-1{ width: 8.33333333%; }
