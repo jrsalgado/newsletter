@@ -1,0 +1,90 @@
+<!DOCTYPE <!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>NEWS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="CSS/Styles.css">
+    </head>
+
+    <body>
+        <img src="Img/LogoDEVZ2.png">
+        <div class="frase">
+                Noticias al instante!
+        </div>
+        <header>
+            <div class="Content">
+                    <nav>
+                        <a class="active" href="index.html">Ultimas Noticias</a>
+                        <a href="Musica.html">Musica</a>
+                        <a href="NoticiasReales.html">Noticias Reales</a>
+                        <a href="VideoGames.html">Video Juegos</a>
+                        <a href="Espacio.html">Espacio</a>
+                    </nav>
+            </div>
+        </header>    
+
+        <div class="main">
+            <div class="slides">
+                    <div>
+                        <h1>El ayukoki ataca de nuevo</h1>
+                        <a href="https://www.youtube.com/watch?v=_18hcL93dvo" target="_blank">
+                            <img src="Img/Ayuwoki.jpg">
+                        </a>
+                    </div>
+
+                    <div>
+                            <h1>Ricardo Milos conquista el internet</h1>
+                            <a href="https://www.youtube.com/watch?v=wERoLoUkZFQ" target="_blank">
+                               <img src="Img/RicardoMilos.jpg"> 
+                            </a>
+                    </div>
+
+                    <div>
+                            <h1>Hoyo negro, primera fotografia de uno!</h1>
+                            <a href="https://www.abc.es/ciencia/abci-primera-historia
+                            -tenemos-imagen-agujero-negro-201904101833_noticia.html" target="_blank">
+                                <img src="Img/HoyoNegro.jpg"> 
+                            </a>
+                    </div>
+
+                    <div>
+                            <h1>Sangrienta batalla!</h1>
+                            <a href="https://www.bbc.com/mundo/noticias-40778124" target="_blank">
+                                <img src="Img/s3.jpg"> 
+                            </a>
+                    </div>
+
+                    
+                    <div>
+                            <h1>Final de league of legend sorprende a todos!</h1>
+                            <a href="https://lan.lolesports.com/noticias/todo-lo-que-necesitas-
+                            saber-sobre-la-final-0-92175" target="_blank">
+                               <img src="Img/LeagueofLegend.jpg">
+                            </a>
+                    </div>
+            </div>       
+        </div>
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="JavaScript/jquery.slides.js"></script>
+
+        <script>
+        $(function(){
+            $(".slides").slidesjs({
+         play: {
+         active: false,
+         effect: "slide",
+         interval: 3000,
+         auto: true,
+         swap: true,
+         pauseOnHover: true,
+         restartDelay: 2500
+          }
+          });
+        });
+        </script>
+
+    </body>
+</html>

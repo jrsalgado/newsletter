@@ -1,0 +1,76 @@
+.Content{
+ background-color:black;
+ padding: 0px;
+ margin: 0 -8;
+ text-align: center;
+}
+.Content a{
+    vertical-align: middle;
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+    margin-left: 40;
+    font-size: 22;
+    font-family: Geneva, Verdana, sans-serif;
+}
+.Content a.active{
+    padding: 18px;
+    background-color: rgb(153, 26, 26);
+}
+.Content :hover{
+    text-decoration: underline; 
+}
+.frase{
+float: right;
+color: black;
+margin: 10;
+font-size: 22;
+font-family:Geneva, Verdana, sans-serif;
+}
+.main{
+    width: 60%;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+.slides img{
+    width:100%;
+}
+.slides:hover{
+    color: rgb(153, 26, 26);
+}
+.slidesjs-pagination{
+    background: transparent;
+    list-style: none;
+    overflow: hidden;
+    margin-left: 35%;
+}
+.slidesjs-pagination li{
+    float: left;
+}
+.slidesjs-pagination li a{
+    display: inline-block;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+}
+.slidesjs-pagination li a:hover{
+    background: gray;
+    color: white;
+}
+.slides .active{
+    background: black;
+    color: white;
+}
+.slidesjs-navigation{
+    background: transparent;
+    color: black;
+    text-decoration: none;
+    padding: 13.5px 20px;
+    float:right;
+    margin-top: 10;
+}
+.slides h1{
+    font-family: 
+     'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+       Geneva, Verdana, sans-serif;
+}

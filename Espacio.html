@@ -1,0 +1,77 @@
+
+    <!DOCTYPE <!DOCTYPE html>
+    <html class="no-js">
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title>NEWS</title>
+            <meta name="description" content="">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="CSS/Styles.css">
+        </head>
+    
+        <body>
+            <img src="Img/LogoDEVZ2.png">
+            <div class="frase">
+                    Noticias al instante!
+            </div>
+            <header>
+                <div class="Content">
+                        <nav>
+                             <a href="index.html">Ultimas Noticias</a>
+                             <a href="Musica.html">Musica</a>
+                             <a href="NoticiasReales.html">Noticias Reales</a>
+                             <a href="VideoGames.html">Video Juegos</a>
+                             <a class="active" href="Espacio.html">Espacio</a>
+                        </nav>
+                </div>
+            </header>    
+    
+            <div class="main">
+                <div class="slides">
+                        <div>
+                            <h1>HALLAN UN AGUJERO NEGRO QUE PUEDE HACER GIRAR EL ESPACIO-TIEMPO</h1>
+                            <a href="https://www.hispantv.com/noticias/ciencia-tecnologia/
+                            393178/agujero-negro-gira-espacio-nasa-galaxia" target="_blank">
+                            <img src="Img/espacio1.jpg"> 
+                            </a>                                       
+                        </div>     
+                        
+                        <div>
+                                <h1>CHINA QUIERE CONQUIZTAR EL ESPACIO A TODA POTENCIA </h1>
+                                <a href="http://es.rfi.fr/asia-pacifico/20181017-china-quiere-conquistar-el-espacio-
+                                toda-potencia" target="_blank">
+                                <img src="Img/espacio2.jpg"> 
+                                </a>
+                        </div>    
+    
+                        <div>
+                                <h1>EN EL 2022, SERÁ POSIBLE SER HUÉSPED EN EL ESPACIO</h1>
+                                <a href="https://www.aztecanoticias.com.mx/en-el-2022-sera-posible-ser-huesped-
+                                en-el-espacio/3310674" target="_blank">
+                                <img src="Img/espacio3.jpg"> 
+                                </a>
+                        </div>      
+                </div>       
+            </div>
+            <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+            <script src="JavaScript/jquery.slides.js"></script>
+    
+            <script>
+            $(function(){
+                $(".slides").slidesjs({
+             play: {
+             active: false,
+             effect: "slide",
+             interval: 3000,
+             auto: true,
+             swap: true,
+             pauseOnHover: true,
+             restartDelay: 2500
+              }
+              });
+            });
+            </script>
+    
+        </body>
+    </html>

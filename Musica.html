@@ -1,0 +1,91 @@
+<!DOCTYPE <!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>NEWS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="CSS/Styles.css">
+    </head>
+
+    <body>
+     <img src="Img/LogoDEVZ2.png">
+     <div class="frase">
+            Noticias al instante!
+    </div>
+    
+        <header>
+            <div class="Content">
+                   
+                    <nav>   
+                        <a href="index.html">Ultimas Noticias</a>
+                        <a class="active" href="Musica.html">Musica</a>
+                        <a href="NoticiasReales.html">Noticias Reales</a>
+                        <a href="VideoGames.html">Video Juegos</a>
+                        <a href="Espacio.html">Espacio</a>
+                    </nav>
+            </div>
+        </header>    
+
+        <div class="main">
+            <div class="slides">
+                    <div>
+                         <h1>Ricardo Milos conquista el internet</h1>
+                         <a href="https://www.youtube.com/watch?v=wERoLoUkZFQ" target="_blank">
+                                <img src="Img/RicardoMilos.jpg"> 
+                         </a>
+                    </div>     
+                    
+                    <div>
+                            <h1>El Eoo es todo un exito!</h1>
+                            <a href="https://www.youtube.com/watch?v=01Sn153r9RY" target="_blank">
+                                <img src="Img/Eoo.jpg"> 
+                            </a>          
+                    </div>    
+
+                    <div>
+                            <h1>El ararasxaskmca no se le entiende nada!</h1>
+                            <a href="https://www.youtube.com/watch?v=aIyqRdrHodE" target="_blank">
+                                <img src="Img/ararara.jpg"> 
+                            </a>
+                    </div> 
+
+                    <div>
+                            <h1>Chirstian rompe records!</h1>
+                            <a href="https://laverdadnoticias.com/espectaculos/
+                            Christian-Nodal-rompe-record-su-album-es-1-por-mas-de-1-
+                            ano-y-3-meses--20190410-0163.html" target="_blank">
+                            <img src="Img/christian.jpg"> 
+                            </a>
+                    </div>   
+
+                    <div>
+                            <h1>Bee Gees</h1>
+                            <a href="https://www.youtube.com/watch?v=I_izvAbhExY" target="_blank">
+                                <img src="Img/BeeGES.jpg"> 
+                            </a>
+                    </div>      
+            </div>       
+        </div>
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="JavaScript/jquery.slides.js"></script>
+
+        <script>
+        $(function(){
+            $(".slides").slidesjs({
+         play: {
+         active: false,
+         effect: "slide",
+         interval: 3000,
+         auto: true,
+         swap: true,
+         pauseOnHover: true,
+         restartDelay: 2500
+          }
+          });
+        });
+        </script>
+
+    </body>
+</html>
